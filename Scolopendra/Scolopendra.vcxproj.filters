@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Core.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{e0936f1a-a0fb-4737-baf7-843c69b76265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Default">
+      <UniqueIdentifier>{f5b1de3e-eb6a-43ef-a821-e70caac3ba8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Implementation.h">
+      <Filter>Modules\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication.h">
+      <Filter>Modules\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="Auxiliary.h">
+      <Filter>Modules\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="_Config.h" />
+    <ClInclude Include="Handler.h" />
+    <ClInclude Include="Shell.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Intelligence.h">
+      <Filter>Modules\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManager.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
